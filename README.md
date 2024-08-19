@@ -4,16 +4,17 @@ The aim of the project is to make it easier for system administrators to set a s
 
 ## Deployment
 
-A projekt elindításához futtasd a LaIPm.sh fájlt. Ha nem vagy root, használd a sudo parancsot.
+Run the LaIPm.sh file to start the project. If you are not root, use the sudo command.
+(If you need the English version, use the LaIPm(ENG).sh file.)
 
 ```bash
-  sudo ./LaIPm.sh
+  sudo ./LaIPm(ENG).sh
 ```
 
 But don't forget to make the file executable! ;)
 
 ```bash
-  chmod +x LaIPm.sh
+  chmod +x LaIPm(ENG).sh
 ```
 
 ### During the program's execution
@@ -27,7 +28,12 @@ After successful execution, the script offers the option to restart.
 
 ![App Screenshot](https://raw.githubusercontent.com/mrkocka/Lazy-Administrator-IPManager/main/img/filescreen.png)
 
-As can be seen, the script renamed the original file and kept it as if it were a backup. The original DHCP version can be restored at any time.
+As you can see, the script creates a backup from the original file in the following path: /var/backups/netplan-backups/backup_folder/
+
+(kell egy kép a backup folder treeről)
+
+
+The original DHCP version can be restored at any time from this file.
 
 ### More info
 
