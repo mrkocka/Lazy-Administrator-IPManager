@@ -82,7 +82,7 @@ reboot() {
     # It will offer the option to reboot
     read -p "Do you want to restart the system? (yes/no):" ujrainditas
 
-    if [[ "$ujrainditas" =~ ^[iI]gen$ ]]; then
+    if [[ "$ujrainditas" =~ ^[iY]es$ ]]; then
         echo "Restarting the system..."
         sudo reboot
     else
