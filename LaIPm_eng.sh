@@ -28,7 +28,7 @@ work(){
     # Fájl helye
     cel_hely="/etc/netplan"
     fajlnev="00-installer-config.yaml"
-    backup_mappa="/var/backups/netplan-backups"
+    backup_folder="/var/backups/netplan-backups"
     backup_fajlnev="00-installer-config-org.yaml"
 
     # Create the backup folder if it does not exist
