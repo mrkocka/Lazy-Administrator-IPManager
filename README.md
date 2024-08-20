@@ -30,7 +30,8 @@ After successful execution, the script offers the option to restart.
 
 As you can see, the script creates a backup from the original file in the following path: /var/backups/netplan-backups/backup_folder/
 
-(kell egy kép a backup folder treeről)
+
+![App Screenshot](https://raw.githubusercontent.com/mrkocka/Lazy-Administrator-IPManager/blob/main/img/backup_tree.png)
 
 
 The original DHCP version can be restored at any time from this file.
