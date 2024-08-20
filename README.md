@@ -8,13 +8,13 @@ Run the LaIPm.sh file to start the project. If you are not root, use the sudo co
 (If you need the English version, use the LaIPm(ENG).sh file.)
 
 ```bash
-  sudo ./LaIPm(ENG).sh
+  sudo ./LaIPm_eng.sh
 ```
 
 But don't forget to make the file executable! ;)
 
 ```bash
-  chmod +x LaIPm(ENG).sh
+  sudo chmod +x LaIPm_eng.sh
 ```
 
 ### During the program's execution
