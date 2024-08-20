@@ -30,16 +30,15 @@ After successful execution, the script offers the option to restart.
 
 As you can see, the script creates a backup from the original file in the following path: /var/backups/netplan-backups/backup_folder/
 
-
 ![App Screenshot](https://raw.githubusercontent.com/mrkocka/Lazy-Administrator-IPManager/blob/main/img/backup_tree.png)
-
 
 The original DHCP version can be restored at any time from this file.
 
 ### More info
 
 In earlier versions, it caused issues if the Ethernet port had a different name. Therefore, as an initial step, the script checks what the active Ethernet port's designation is on the server.
-![App Screenshot](https://raw.githubusercontent.com/mrkocka/Lazy-Administrator-IPManager/main/img/activeInterface.png)
+
+![App Screenshot](https://raw.githubusercontent.com/mrkocka/Lazy-Administrator-IPManager/blod/main/img/activeInterface.png)
 
 ## License
 
